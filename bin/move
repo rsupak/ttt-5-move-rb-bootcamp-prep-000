@@ -9,3 +9,4 @@ board = Array.new(9) { ' ' }
 puts 'Where would you like to go?'
 input = gets.chomp
 index = input_to_index(input)
+move(index)
